@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    text-align: center;
+}
+
+.list {
+    background-color: aqua;
+}
+
+.list li{
+    list-style: decimal-leading-zero;
+    font-size: 30px;    
+}
+
+.list a {
+    font-variant: small-caps;
+    text-decoration: none;
+    color: orangered;
+}
+
+.list a:hover {    
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+    background-color: orangered;
+}
+

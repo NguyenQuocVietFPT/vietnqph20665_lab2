@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.logo {
+    background-image: url('../img/hinhnen.jfif');
+    background-size: 20% auto;
+    min-height: 300px;
+    background-repeat: repeat;
+}
+.sanpham {
+    text-align: center;
+    float: left;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue;
+    margin: 16px;
+}
+.sanpham .ten{
+    font-size: 30px;
+    font-variant: small-caps;
+    color: blue;
+}
+.sanpham img{
+    border-radius: 30px ;    
+}
+.sanpham .gia {
+    font-size: 20px;
+    color: red;
+}
+.sanpham .gia del {
+    color: gray;    
+}
+.sanpham:hover{
+    background-color: aqua;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+}
+.sanpham .ten:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.quaylai {
+    text-align: center;    
+}
+.quaylai a {
+    font-size: 25px;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.quaylai a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
